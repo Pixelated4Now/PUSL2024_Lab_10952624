@@ -11,12 +11,9 @@ public class Person
         this.age = age;
     }
     
-    public boolean IsAdult() 
+     public boolean IsAdult() 
     {
-        if (age >= 18)
-            return true;
-        else
-            return false;
+        return (age >= 18);
     }
     
 }
